@@ -1,4 +1,4 @@
-	if(cardBackgroundArray.length==0)cardBackgroundArray.push('images/card_bg1.gif');
+	if(cardBackgroundArray.length==0)cardBackgroundArray.push('images_switch/card_bg1.gif');
 	var cardTypes = ['s','d','h','c'];
 	var cardColors = {'s':0,'d':1,'h':1,'c':0};
 	var cardObjectArray = new Array();
@@ -361,7 +361,7 @@
 			
 			for(var no2=1;no2<=13;no2++){
 				imageArray[no][no2] = new Image();
-				imageArray[no][no2].src = 'images/bg_' + cardTypes[no] + no2 + '.gif';
+				imageArray[no][no2].src = 'images_switch/bg_' + cardTypes[no] + no2 + '.gif';
 				
 				var div = document.createElement('DIV');
 				div.id = cardTypes[no] + no2;
